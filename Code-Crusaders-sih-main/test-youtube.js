@@ -1,7 +1,7 @@
 const fetch = require('node-fetch');
 
 async function testYouTubeAPI() {
-  const apiKey = 'AIzaSyDfm8NvIx7jQtPJvfy1cLZrYAvz5nF4ljs';
+  const apiKey = 'AIza.........';
   const query = 'Python tutorial';
   
   const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${encodeURIComponent(query)}&type=video&videoDuration=long&order=viewCount&maxResults=3&key=${apiKey}`;
