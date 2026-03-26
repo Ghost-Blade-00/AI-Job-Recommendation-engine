@@ -1,0 +1,33 @@
+{
+  "name": "chat-interface",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.19.0",
+    "@supabase/supabase-js": "^2.81.0",
+    "groq-sdk": "^0.3.3",
+    "lucide-react": "^0.292.0",
+    "next": "14.0.0",
+    "prisma": "^6.19.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-lottie-player": "^2.1.0",
+    "sqlite3": "^5.1.7",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.7",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0",
+    "typescript": "^5"
+  }
+}
